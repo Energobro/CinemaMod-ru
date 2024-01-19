@@ -3,14 +3,7 @@
 </p>
 
 # CinemaMod
-Watch online videos with others in Minecraft.
+Смотрите онлайн-видео вместе с другими игроками в Minecraft.
 
-NOT RELEASED, IN DEVELOPMENT. If you use this, understand that there are bugs and it is not complete.
-
-Current blockers before releasing:
-- Need to convert CinemaMod to use MCEF 2
-- Need to make a server backend for Fabric in addition to Bukkit
-- Need to remove the hard requirement for ffmpeg to be installed on the server
-
-## Discussion
-https://discord.gg/rNrh5kW8Ty
+## Мой телеграмм канал <3
+https://t.me/energ0bro
