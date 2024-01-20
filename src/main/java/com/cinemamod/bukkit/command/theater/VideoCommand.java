@@ -31,7 +31,7 @@ public class VideoCommand extends TheaterCommandExecutor implements TabCompleter
     @Override
     public boolean onTheaterCommand(Player player, Command command, String label, String[] args, Theater theater) {
         if(args.length == 0){
-            player.sendMessage(ChatColor.RED + "Выберите действие (skip|play|volume)");
+            player.sendMessage(ChatColor.RED + "Выберите действие (skip|play|volume|history|info)");
             return true;
         }
             switch (args[0].toLowerCase()) {
@@ -128,7 +128,7 @@ public class VideoCommand extends TheaterCommandExecutor implements TabCompleter
     @Override
     public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
         if(args.length == 1) {
-            return List.of("op_lock_video", "op_skip", "history", "play", "skip", "volume", "skip", "info");
+            return List.of("op_lock_video", "op_skip", "history", "play", "skip", "volume", "info");
         }else if(args.length == 2) {
             if (args[0].equals("play")) {
                 return List.of("[Ссылка]");
